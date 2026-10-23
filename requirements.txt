@@ -1,0 +1,5 @@
+streamlit==1.61.1
+pandas
+psycopg2-binary
+bcrypt
+openpyxl

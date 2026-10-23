@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+CONTEXT_INTERNO.md
+etl/data/
+etl/logs/
+etl/.env
+etl/.oauth_token_cache.json
+base paliativa/
+streamlit.log
+.DS_Store
+.claude/settings.local.json
+_antigo/
+
+# obsoletos desde 23/10/2026 (dado vem do sync central; acesso pela matriz) — ficam só no OneDrive
+etl/
+scripts/
+streamlit_*.log
+streamlit_pid.txt
