@@ -92,9 +92,10 @@ régua; eventos sem diretoria = 0).
 57 eventos antigos (2014–2024) ficam com diretoria "Não informado": centros de custo extintos, fora do
 mapeamento. Não aparecem no período padrão.
 
-## Pendências
+## Publicação
 
-- **Publicar** (Streamlit Cloud): repositório, Secrets (`[neon]` + `[app] email_suporte`) e link no Hub.
-- **Migração 033b, depois de publicado**: tirar o `app_movimentacoes` do `grp_app_leitura` e o SELECT em
-  `core.oracle_hcm_historico_movimentacao` e na paliativa (o painel antigo ainda dependia deles).
-- Apagar `etl/`, `scripts/` e `base paliativa/` quando não forem mais necessários.
+No ar desde 23/10/2026: https://movimentacoes-transferencias-pacaembu.streamlit.app/ (card no Hub de
+Indicadores). O usuário de banco `app_movimentacoes` lê só as 2 views, `ops.v_ultima_carga` e o login
+(migração 034: saiu do `grp_app_leitura`).
+
+Pendente: apagar `etl/`, `scripts/` e `base paliativa/` (fora do git) quando não forem mais necessários.
